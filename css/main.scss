@@ -1,0 +1,81 @@
+---
+---
+
+@charset "utf-8";
+
+// Example Defaults
+// $base-font-family: Helvetica, Arial, sans-serif;
+// $base-font-size:   16px;
+// $small-font-size:  $base-font-size * 0.875;
+// $base-line-height: 1.5;
+
+// $spacing-unit:     30px;
+
+// $text-color:       #111;
+// $background-color: #fdfdfd;
+// $brand-color:      #2a7ae2;
+
+// $grey-color:       #828282;
+// $grey-color-light: lighten($grey-color, 40%);
+// $grey-color-dark:  darken($grey-color, 25%);
+
+// // Width of the content area
+// $content-width:    800px;
+
+// $on-palm:          600px;
+// $on-laptop:        800px;
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+// variables.less
+$theme-primary: #410B13;
+$theme-dark: #222;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "mixins",
+        "base"
+
+;
+.navbar-toggle {
+  border: none;
+}
+header {
+  background-image: url('/img/header.jpg');
+}
+.page-title {
+  background-image: url('/img/andrew-page.jpg');
+  // background-position: top;
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 100px;
+  min-height: 400px;
+  background-color: #333;
+}
+.media {
+  background-color: #eee;
+}
+.media-body {
+  padding-top: 5px;
+}
+.wow {
+  color: white;
+}
+.page-nav {
+  display: inline;
+  list-style: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-nav-item {
+  display: inline;
+  text-align: center;
+  
+}
