@@ -47,10 +47,10 @@ $theme-dark: #222;
   border: none;
 }
 header {
-  background-image: url('/img/header.jpg');
+  background-image: url('{{ site.github.url }}/img/header.jpg');
 }
 .page-title {
-  background-image: url('/img/andrew-page.jpg');
+  background-image: url('{{ site.github.url }}/img/andrew-page.jpg');
   // background-position: top;
   background-size: cover;
   margin-top: 0;
@@ -77,5 +77,5 @@ header {
 .page-nav-item {
   display: inline;
   text-align: center;
-  
+
 }
