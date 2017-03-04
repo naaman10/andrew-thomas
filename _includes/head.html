@@ -24,15 +24,15 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
     {% if page.title == "1990s" %}
       <style type="text/css">
-      .page-title {background-image: url('/img/IMG_2816.JPG');}
+      .page-title {background-image: url('{{ site.github.url }}/img/IMG_2816.JPG');}
       </style>
       {% elsif page.title == "The Millionaires" %}
       <style type="text/css">
-      .page-title {background-image: url('/img/IMG_2886.JPG');}
+      .page-title {background-image: url('{{ site.github.url }}/img/IMG_2886.JPG');}
       </style>
       {% elsif page.title == "Contact" %}
       <style type="text/css">
-      .page-title {background-image: url('/img/musician.jpg');}
+      .page-title {background-image: url('{{ site.github.url }}/img/musician.jpg');}
       </style>
       {% else %}
     {% endif %}
