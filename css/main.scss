@@ -43,6 +43,11 @@ $theme-dark: #222;
         "base"
 
 ;
+
+.navbar-default .navbar-header .navbar-brand {
+  color: $theme-primary;
+}
+
 .navbar-toggle {
   border: none;
 }
@@ -50,7 +55,7 @@ header {
   background-image: url('{{ site.github.url }}/img/header.jpg');
 }
 .page-title {
-  background-image: url('{{ site.github.url }}/img/andrew-page.jpg');
+  background-image: url('{{ site.github.url }}/img/solo-header.jpeg');
   // background-position: top;
   background-size: cover;
   margin-top: 0;
