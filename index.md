@@ -1,5 +1,5 @@
 ---
-layout: front
+layout: home
 title: Andrew Thomas
 permalink: /
 ---
